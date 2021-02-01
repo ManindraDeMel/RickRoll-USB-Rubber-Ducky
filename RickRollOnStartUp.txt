@@ -43,5 +43,7 @@ DELAY 300
 GUI r
 DELAY 300
 STRING cmd
+DELAY 300
+ENTER
 DELAY 500
 STRING C:\Users\%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\run.bat
